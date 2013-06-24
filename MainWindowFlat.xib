@@ -1,1529 +1,317 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
-	<data>
-		<int key="IBDocument.SystemTarget">1552</int>
-		<string key="IBDocument.SystemVersion">12E55</string>
-		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.39</string>
-		<string key="IBDocument.HIToolboxVersion">626.00</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">2083</string>
-		</object>
-		<array key="IBDocument.IntegratedClassDependencies">
-			<string>IBProxyObject</string>
-			<string>IBUIButton</string>
-			<string>IBUICustomObject</string>
-			<string>IBUINavigationBar</string>
-			<string>IBUINavigationController</string>
-			<string>IBUINavigationItem</string>
-			<string>IBUIScrollView</string>
-			<string>IBUITabBar</string>
-			<string>IBUITabBarController</string>
-			<string>IBUITabBarItem</string>
-			<string>IBUIView</string>
-			<string>IBUIViewController</string>
-			<string>IBUIWindow</string>
-		</array>
-		<array key="IBDocument.PluginDependencies">
-			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-		</array>
-		<object class="NSMutableDictionary" key="IBDocument.Metadata">
-			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
-			<integer value="1" key="NS.object.0"/>
-		</object>
-		<array class="NSMutableArray" key="IBDocument.RootObjects" id="404559094">
-			<object class="IBProxyObject" id="290830259">
-				<string key="IBProxiedObjectIdentifier">IBFilesOwner</string>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBProxyObject" id="564548523">
-				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBUICustomObject" id="919828898">
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBUICustomObject" id="864837422">
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBUICustomObject" id="441545816">
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBUIWindow" id="315381493">
-				<reference key="NSNextResponder"/>
-				<int key="NSvFlags">1316</int>
-				<object class="NSPSMatrix" key="NSFrameMatrix"/>
-				<string key="NSFrameSize">{320, 480}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
-				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MSAxIDEAA</bytes>
-				</object>
-				<bool key="IBUIOpaque">NO</bool>
-				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-				<bool key="IBUIResizesToFullScreen">YES</bool>
-			</object>
-			<object class="IBUIViewController" id="704914877">
-				<object class="IBUIView" key="IBUIView" id="536737539">
-					<reference key="NSNextResponder"/>
-					<int key="NSvFlags">1298</int>
-					<array class="NSMutableArray" key="NSSubviews">
-						<object class="IBUIScrollView" id="82418722">
-							<reference key="NSNextResponder" ref="536737539"/>
-							<int key="NSvFlags">1330</int>
-							<array class="NSMutableArray" key="NSSubviews"/>
-							<string key="NSFrameSize">{320, 417}</string>
-							<reference key="NSSuperview" ref="536737539"/>
-							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="799874679"/>
-							<string key="NSReuseIdentifierKey">_NS:9</string>
-							<bool key="IBUIClipsSubviews">YES</bool>
-							<bool key="IBUIMultipleTouchEnabled">YES</bool>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<bool key="IBUIBounces">NO</bool>
-							<bool key="IBUIScrollEnabled">NO</bool>
-							<bool key="IBUIShowsHorizontalScrollIndicator">NO</bool>
-							<bool key="IBUIShowsVerticalScrollIndicator">NO</bool>
-						</object>
-						<object class="IBUIView" id="799874679">
-							<reference key="NSNextResponder" ref="536737539"/>
-							<int key="NSvFlags">-2147482318</int>
-							<string key="NSFrameSize">{320, 417}</string>
-							<reference key="NSSuperview" ref="536737539"/>
-							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="1029264842"/>
-							<string key="NSReuseIdentifierKey">_NS:9</string>
-							<object class="NSColor" key="IBUIBackgroundColor">
-								<int key="NSColorSpace">1</int>
-								<bytes key="NSRGB">MC43NjQ1NzAwMjc0IDAuNDI3MTc4Mzc1OSAwLjI2MTU3NjE4NjEAA</bytes>
-							</object>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-						<object class="IBUIView" id="1029264842">
-							<reference key="NSNextResponder" ref="536737539"/>
-							<int key="NSvFlags">1306</int>
-							<array class="NSMutableArray" key="NSSubviews">
-								<object class="IBUIButton" id="506037333">
-									<reference key="NSNextResponder" ref="1029264842"/>
-									<int key="NSvFlags">1310</int>
-									<string key="NSFrameSize">{80, 43}</string>
-									<reference key="NSSuperview" ref="1029264842"/>
-									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="739303367"/>
-									<string key="NSReuseIdentifierKey">_NS:9</string>
-									<bool key="IBUIOpaque">NO</bool>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-									<int key="IBUIContentHorizontalAlignment">0</int>
-									<int key="IBUIContentVerticalAlignment">0</int>
-									<bool key="IBUIAdjustsImageWhenHighlighted">NO</bool>
-									<bool key="IBUIAdjustsImageWhenDisabled">NO</bool>
-									<object class="NSColor" key="IBUIHighlightedTitleColor" id="354700999">
-										<int key="NSColorSpace">3</int>
-										<bytes key="NSWhite">MCAwAA</bytes>
-									</object>
-									<reference key="IBUIDisabledTitleColor" ref="354700999"/>
-									<reference key="IBUISelectedTitleColor" ref="354700999"/>
-									<reference key="IBUINormalTitleColor" ref="354700999"/>
-									<object class="NSCustomResource" key="IBUIHighlightedImage" id="464893283">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">categories_on.png</string>
-									</object>
-									<reference key="IBUISelectedImage" ref="464893283"/>
-									<object class="NSCustomResource" key="IBUINormalImage">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">categories.png</string>
-									</object>
-									<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage" id="664305725">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">black_dot.png</string>
-									</object>
-									<reference key="IBUISelectedBackgroundImage" ref="664305725"/>
-									<reference key="IBUINormalBackgroundImage" ref="664305725"/>
-									<object class="IBUIFontDescription" key="IBUIFontDescription" id="175877066">
-										<int key="type">2</int>
-										<double key="pointSize">15</double>
-									</object>
-									<object class="NSFont" key="IBUIFont" id="1001807111">
-										<string key="NSName">Helvetica-Bold</string>
-										<double key="NSSize">15</double>
-										<int key="NSfFlags">16</int>
-									</object>
-								</object>
-								<object class="IBUIButton" id="739303367">
-									<reference key="NSNextResponder" ref="1029264842"/>
-									<int key="NSvFlags">1303</int>
-									<string key="NSFrame">{{80, 0}, {80, 43}}</string>
-									<reference key="NSSuperview" ref="1029264842"/>
-									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="940416538"/>
-									<string key="NSReuseIdentifierKey">_NS:9</string>
-									<bool key="IBUIOpaque">NO</bool>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-									<int key="IBUIContentHorizontalAlignment">0</int>
-									<int key="IBUIContentVerticalAlignment">0</int>
-									<bool key="IBUIAdjustsImageWhenHighlighted">NO</bool>
-									<bool key="IBUIAdjustsImageWhenDisabled">NO</bool>
-									<reference key="IBUIHighlightedTitleColor" ref="354700999"/>
-									<reference key="IBUIDisabledTitleColor" ref="354700999"/>
-									<reference key="IBUISelectedTitleColor" ref="354700999"/>
-									<reference key="IBUINormalTitleColor" ref="354700999"/>
-									<object class="NSCustomResource" key="IBUIHighlightedImage" id="399380643">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">favoris_on.png</string>
-									</object>
-									<reference key="IBUISelectedImage" ref="399380643"/>
-									<object class="NSCustomResource" key="IBUINormalImage">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">favoris.png</string>
-									</object>
-									<object class="NSCustomResource" key="IBUIHighlightedBackgroundImage" id="469576047">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">white_dot.png</string>
-									</object>
-									<reference key="IBUISelectedBackgroundImage" ref="469576047"/>
-									<reference key="IBUINormalBackgroundImage" ref="664305725"/>
-									<reference key="IBUIFontDescription" ref="175877066"/>
-									<reference key="IBUIFont" ref="1001807111"/>
-								</object>
-								<object class="IBUIButton" id="940416538">
-									<reference key="NSNextResponder" ref="1029264842"/>
-									<int key="NSvFlags">1303</int>
-									<string key="NSFrame">{{160, 0}, {80, 43}}</string>
-									<reference key="NSSuperview" ref="1029264842"/>
-									<reference key="NSWindow"/>
-									<reference key="NSNextKeyView" ref="8340717"/>
-									<string key="NSReuseIdentifierKey">_NS:9</string>
-									<bool key="IBUIOpaque">NO</bool>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-									<int key="IBUIContentHorizontalAlignment">0</int>
-									<int key="IBUIContentVerticalAlignment">0</int>
-									<bool key="IBUIAdjustsImageWhenHighlighted">NO</bool>
-									<bool key="IBUIAdjustsImageWhenDisabled">NO</bool>
-									<reference key="IBUIHighlightedTitleColor" ref="354700999"/>
-									<reference key="IBUIDisabledTitleColor" ref="354700999"/>
-									<reference key="IBUISelectedTitleColor" ref="354700999"/>
-									<reference key="IBUINormalTitleColor" ref="354700999"/>
-									<object class="NSCustomResource" key="IBUIHighlightedImage" id="984339710">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">search_on.png</string>
-									</object>
-									<reference key="IBUISelectedImage" ref="984339710"/>
-									<object class="NSCustomResource" key="IBUINormalImage">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">search.png</string>
-									</object>
-									<reference key="IBUIHighlightedBackgroundImage" ref="469576047"/>
-									<reference key="IBUISelectedBackgroundImage" ref="469576047"/>
-									<reference key="IBUINormalBackgroundImage" ref="664305725"/>
-									<reference key="IBUIFontDescription" ref="175877066"/>
-									<reference key="IBUIFont" ref="1001807111"/>
-								</object>
-								<object class="IBUIButton" id="8340717">
-									<reference key="NSNextResponder" ref="1029264842"/>
-									<int key="NSvFlags">1299</int>
-									<string key="NSFrame">{{240, 0}, {80, 43}}</string>
-									<reference key="NSSuperview" ref="1029264842"/>
-									<reference key="NSWindow"/>
-									<string key="NSReuseIdentifierKey">_NS:9</string>
-									<bool key="IBUIOpaque">NO</bool>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-									<int key="IBUIContentHorizontalAlignment">0</int>
-									<int key="IBUIContentVerticalAlignment">0</int>
-									<bool key="IBUIAdjustsImageWhenHighlighted">NO</bool>
-									<bool key="IBUIAdjustsImageWhenDisabled">NO</bool>
-									<reference key="IBUIHighlightedTitleColor" ref="354700999"/>
-									<reference key="IBUISelectedTitleColor" ref="354700999"/>
-									<reference key="IBUINormalTitleColor" ref="354700999"/>
-									<reference key="IBUISelectedTitleShadowColor" ref="354700999"/>
-									<object class="NSCustomResource" key="IBUIHighlightedImage" id="767448833">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">tabs_on.png</string>
-									</object>
-									<reference key="IBUISelectedImage" ref="767448833"/>
-									<object class="NSCustomResource" key="IBUINormalImage">
-										<string key="NSClassName">NSImage</string>
-										<string key="NSResourceName">tabs.png</string>
-									</object>
-									<reference key="IBUIHighlightedBackgroundImage" ref="469576047"/>
-									<reference key="IBUISelectedBackgroundImage" ref="469576047"/>
-									<reference key="IBUINormalBackgroundImage" ref="664305725"/>
-									<reference key="IBUIFontDescription" ref="175877066"/>
-									<reference key="IBUIFont" ref="1001807111"/>
-								</object>
-							</array>
-							<object class="NSPSMatrix" key="NSFrameMatrix"/>
-							<string key="NSFrame">{{0, 417}, {320, 43}}</string>
-							<reference key="NSSuperview" ref="536737539"/>
-							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="506037333"/>
-							<object class="NSColor" key="IBUIBackgroundColor">
-								<int key="NSColorSpace">1</int>
-								<bytes key="NSRGB">MSAwLjgwMDAwMDAxMTkgMC40MDAwMDAwMDYAA</bytes>
-							</object>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-					</array>
-					<object class="NSPSMatrix" key="NSFrameMatrix"/>
-					<string key="NSFrame">{{0, 20}, {320, 460}}</string>
-					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView" ref="82418722"/>
-					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-				</object>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
-					<int key="IBUIStatusBarStyle">2</int>
-				</object>
-				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-					<int key="IBUIInterfaceOrientation">1</int>
-					<int key="interfaceOrientation">1</int>
-				</object>
-				<object class="IBUIScreenMetrics" key="IBUISimulatedDestinationMetrics">
-					<string key="IBUISimulatedSizeMetricsClass">IBUIScreenMetrics</string>
-					<object class="NSMutableDictionary" key="IBUINormalizedOrientationToSizeMap">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<array key="dict.sortedKeys">
-							<integer value="1"/>
-							<integer value="3"/>
-						</array>
-						<array key="dict.values">
-							<string>{320, 480}</string>
-							<string>{480, 320}</string>
-						</array>
-					</object>
-					<string key="IBUITargetRuntime">IBCocoaTouchFramework</string>
-					<string key="IBUIDisplayName">Retina 3.5 Full Screen</string>
-					<int key="IBUIType">0</int>
-				</object>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-				<bool key="IBUIHorizontal">NO</bool>
-			</object>
-			<object class="IBUITabBarController" id="884997277">
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-					<int key="IBUIInterfaceOrientation">1</int>
-					<int key="interfaceOrientation">1</int>
-				</object>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUINavigationController" key="IBUISelectedViewController" id="802807111">
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="394527492">
-						<string key="IBUITitle">Catégories</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">44-shoebox.png</string>
-						</object>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-					</object>
-					<array key="IBUIToolbarItems" id="0"/>
-					<reference key="IBUIParentViewController" ref="884997277"/>
-					<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-						<int key="IBUIInterfaceOrientation">1</int>
-						<int key="interfaceOrientation">1</int>
-					</object>
-					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-					<bool key="IBUIHorizontal">NO</bool>
-					<object class="IBUINavigationBar" key="IBUINavigationBar" id="509715621">
-						<nil key="NSNextResponder"/>
-						<int key="NSvFlags">1792</int>
-						<object class="NSPSMatrix" key="NSFrameMatrix"/>
-						<string key="NSFrameSize">{320, 44}</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<reference key="IBUIItems" ref="0"/>
-					</object>
-					<array class="NSMutableArray" key="IBUIViewControllers">
-						<object class="IBUIViewController" id="121983951">
-							<reference key="IBUIToolbarItems" ref="0"/>
-							<object class="IBUINavigationItem" key="IBUINavigationItem" id="252353047">
-								<string key="IBUITitle">Item</string>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							</object>
-							<reference key="IBUIParentViewController" ref="802807111"/>
-							<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-								<int key="IBUIInterfaceOrientation">1</int>
-								<int key="interfaceOrientation">1</int>
-							</object>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<bool key="IBUIHorizontal">NO</bool>
-						</object>
-					</array>
-				</object>
-				<array class="NSMutableArray" key="IBUIViewControllers">
-					<reference ref="802807111"/>
-					<object class="IBUINavigationController" id="779858833">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="858215281">
-							<string key="IBUITitle">Vos Sujets</string>
-							<object class="NSCustomResource" key="IBUIImage">
-								<string key="NSClassName">NSImage</string>
-								<string key="NSResourceName">28-star.png</string>
-							</object>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-						<reference key="IBUIToolbarItems" ref="0"/>
-						<reference key="IBUIParentViewController" ref="884997277"/>
-						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-							<int key="IBUIInterfaceOrientation">1</int>
-							<int key="interfaceOrientation">1</int>
-						</object>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIHorizontal">NO</bool>
-						<object class="IBUINavigationBar" key="IBUINavigationBar" id="1021092129">
-							<nil key="NSNextResponder"/>
-							<int key="NSvFlags">1792</int>
-							<object class="NSPSMatrix" key="NSFrameMatrix"/>
-							<string key="NSFrameSize">{320, 44}</string>
-							<bool key="IBUIOpaque">NO</bool>
-							<bool key="IBUIClipsSubviews">YES</bool>
-							<bool key="IBUIMultipleTouchEnabled">YES</bool>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUIItems" ref="0"/>
-						</object>
-						<array class="NSMutableArray" key="IBUIViewControllers">
-							<object class="IBUIViewController" id="899390690">
-								<reference key="IBUIToolbarItems" ref="0"/>
-								<object class="IBUINavigationItem" key="IBUINavigationItem" id="71637260">
-									<string key="IBUITitle">Item</string>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								</object>
-								<reference key="IBUIParentViewController" ref="779858833"/>
-								<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-									<int key="IBUIInterfaceOrientation">1</int>
-									<int key="interfaceOrientation">1</int>
-								</object>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<bool key="IBUIHorizontal">NO</bool>
-							</object>
-						</array>
-					</object>
-					<object class="IBUINavigationController" id="173634852">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="538914403">
-							<string key="IBUITitle">Messages</string>
-							<object class="NSCustomResource" key="IBUIImage">
-								<string key="NSClassName">NSImage</string>
-								<string key="NSResourceName">18-envelope.png</string>
-							</object>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-						<reference key="IBUIToolbarItems" ref="0"/>
-						<reference key="IBUIParentViewController" ref="884997277"/>
-						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-							<int key="IBUIInterfaceOrientation">1</int>
-							<int key="interfaceOrientation">1</int>
-						</object>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIHorizontal">NO</bool>
-						<object class="IBUINavigationBar" key="IBUINavigationBar" id="220094209">
-							<nil key="NSNextResponder"/>
-							<int key="NSvFlags">1792</int>
-							<object class="NSPSMatrix" key="NSFrameMatrix"/>
-							<string key="NSFrameSize">{320, 44}</string>
-							<bool key="IBUIOpaque">NO</bool>
-							<bool key="IBUIClipsSubviews">YES</bool>
-							<bool key="IBUIMultipleTouchEnabled">YES</bool>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUIItems" ref="0"/>
-						</object>
-						<array class="NSMutableArray" key="IBUIViewControllers">
-							<object class="IBUIViewController" id="503295244">
-								<reference key="IBUIToolbarItems" ref="0"/>
-								<object class="IBUINavigationItem" key="IBUINavigationItem" id="1908120">
-									<string key="IBUITitle">Item</string>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								</object>
-								<reference key="IBUIParentViewController" ref="173634852"/>
-								<string key="IBUINibName">TopicsTableViewController</string>
-								<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-									<int key="IBUIInterfaceOrientation">1</int>
-									<int key="interfaceOrientation">1</int>
-								</object>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<bool key="IBUIHorizontal">NO</bool>
-							</object>
-						</array>
-					</object>
-					<object class="IBUINavigationController" id="914284568">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="667235710">
-							<string key="IBUITitle">Recherche</string>
-							<object class="NSCustomResource" key="IBUIImage">
-								<string key="NSClassName">NSImage</string>
-								<string key="NSResourceName">06-magnify.png</string>
-							</object>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						</object>
-						<reference key="IBUIToolbarItems" ref="0"/>
-						<reference key="IBUIParentViewController" ref="884997277"/>
-						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-							<int key="IBUIInterfaceOrientation">1</int>
-							<int key="interfaceOrientation">1</int>
-						</object>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIHorizontal">NO</bool>
-						<object class="IBUINavigationBar" key="IBUINavigationBar" id="314550696">
-							<nil key="NSNextResponder"/>
-							<int key="NSvFlags">1792</int>
-							<object class="NSPSMatrix" key="NSFrameMatrix"/>
-							<string key="NSFrameSize">{320, 44}</string>
-							<bool key="IBUIOpaque">NO</bool>
-							<bool key="IBUIClipsSubviews">YES</bool>
-							<bool key="IBUIMultipleTouchEnabled">YES</bool>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUIItems" ref="0"/>
-						</object>
-						<array class="NSMutableArray" key="IBUIViewControllers">
-							<object class="IBUIViewController" id="804712233">
-								<reference key="IBUIToolbarItems" ref="0"/>
-								<object class="IBUINavigationItem" key="IBUINavigationItem" id="373350720">
-									<string key="IBUITitle">Item</string>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								</object>
-								<reference key="IBUIParentViewController" ref="914284568"/>
-								<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-									<int key="IBUIInterfaceOrientation">1</int>
-									<int key="interfaceOrientation">1</int>
-								</object>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<bool key="IBUIHorizontal">NO</bool>
-							</object>
-						</array>
-					</object>
-					<object class="IBUINavigationController" id="1033098280">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="488182550">
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<int key="IBUISystemItemIdentifier">0</int>
-						</object>
-						<reference key="IBUIToolbarItems" ref="0"/>
-						<reference key="IBUIParentViewController" ref="884997277"/>
-						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-							<int key="IBUIInterfaceOrientation">1</int>
-							<int key="interfaceOrientation">1</int>
-						</object>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<bool key="IBUIHorizontal">NO</bool>
-						<object class="IBUINavigationBar" key="IBUINavigationBar" id="645252979">
-							<nil key="NSNextResponder"/>
-							<int key="NSvFlags">1792</int>
-							<object class="NSPSMatrix" key="NSFrameMatrix"/>
-							<string key="NSFrameSize">{320, 44}</string>
-							<bool key="IBUIOpaque">NO</bool>
-							<bool key="IBUIClipsSubviews">YES</bool>
-							<bool key="IBUIMultipleTouchEnabled">YES</bool>
-							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-							<reference key="IBUIItems" ref="0"/>
-						</object>
-						<array class="NSMutableArray" key="IBUIViewControllers">
-							<object class="IBUIViewController" id="332707175">
-								<reference key="IBUIToolbarItems" ref="0"/>
-								<object class="IBUINavigationItem" key="IBUINavigationItem" id="983584473">
-									<string key="IBUITitle">Item</string>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								</object>
-								<reference key="IBUIParentViewController" ref="1033098280"/>
-								<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-									<int key="IBUIInterfaceOrientation">1</int>
-									<int key="interfaceOrientation">1</int>
-								</object>
-								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<bool key="IBUIHorizontal">NO</bool>
-							</object>
-						</array>
-					</object>
-				</array>
-				<object class="IBUITabBar" key="IBUITabBar" id="634012160">
-					<nil key="NSNextResponder"/>
-					<int key="NSvFlags">1290</int>
-					<object class="NSPSMatrix" key="NSFrameMatrix"/>
-					<string key="NSFrame">{{0, 431}, {320, 49}}</string>
-					<reference key="IBUIBackgroundColor" ref="354700999"/>
-					<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-				</object>
-			</object>
-		</array>
-		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<bool key="usesAutoincrementingIDs">NO</bool>
-			<array class="NSMutableArray" key="connectionRecords">
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="290830259"/>
-						<reference key="destination" ref="919828898"/>
-					</object>
-					<string key="id">4</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">favoritesNavController</string>
-						<reference key="source" ref="919828898"/>
-						<reference key="destination" ref="779858833"/>
-					</object>
-					<string key="id">53</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">forumsNavController</string>
-						<reference key="source" ref="919828898"/>
-						<reference key="destination" ref="802807111"/>
-					</object>
-					<string key="id">41</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">messagesNavController</string>
-						<reference key="source" ref="919828898"/>
-						<reference key="destination" ref="173634852"/>
-					</object>
-					<string key="id">47</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">rootController</string>
-						<reference key="source" ref="919828898"/>
-						<reference key="destination" ref="704914877"/>
-					</object>
-					<string key="id">200</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">searchNavController</string>
-						<reference key="source" ref="919828898"/>
-						<reference key="destination" ref="914284568"/>
-					</object>
-					<string key="id">196</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">window</string>
-						<reference key="source" ref="919828898"/>
-						<reference key="destination" ref="315381493"/>
-					</object>
-					<string key="id">5</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="884997277"/>
-						<reference key="destination" ref="864837422"/>
-					</object>
-					<string key="id">113</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnCategories</string>
-						<reference key="source" ref="704914877"/>
-						<reference key="destination" ref="506037333"/>
-					</object>
-					<string key="id">zzy-8z-Lb6</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">popoverView</string>
-						<reference key="source" ref="704914877"/>
-						<reference key="destination" ref="799874679"/>
-					</object>
-					<string key="id">JDW-LK-vWR</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnFavoris</string>
-						<reference key="source" ref="704914877"/>
-						<reference key="destination" ref="739303367"/>
-					</object>
-					<string key="id">vGU-Pv-HJz</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnSearch</string>
-						<reference key="source" ref="704914877"/>
-						<reference key="destination" ref="940416538"/>
-					</object>
-					<string key="id">QBT-JV-dSn</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">scrollView</string>
-						<reference key="source" ref="704914877"/>
-						<reference key="destination" ref="82418722"/>
-					</object>
-					<string key="id">8f7-Y8-JC8</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">btnTabs</string>
-						<reference key="source" ref="704914877"/>
-						<reference key="destination" ref="8340717"/>
-					</object>
-					<string key="id">rLz-9w-l3g</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">menuView</string>
-						<reference key="source" ref="704914877"/>
-						<reference key="destination" ref="1029264842"/>
-					</object>
-					<string key="id">ujq-YV-pKq</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">switchBtn:forEvent:</string>
-						<reference key="source" ref="506037333"/>
-						<reference key="destination" ref="704914877"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<string key="id">mff-Mr-DTS</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">switchBtn:forEvent:</string>
-						<reference key="source" ref="8340717"/>
-						<reference key="destination" ref="704914877"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<string key="id">uiw-wc-r3R</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">switchBtn:forEvent:</string>
-						<reference key="source" ref="739303367"/>
-						<reference key="destination" ref="704914877"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<string key="id">zRa-V2-lHM</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">switchBtn:forEvent:</string>
-						<reference key="source" ref="940416538"/>
-						<reference key="destination" ref="704914877"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<string key="id">El4-qE-wLT</string>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="82418722"/>
-						<reference key="destination" ref="704914877"/>
-					</object>
-					<string key="id">a8S-1b-k72</string>
-				</object>
-			</array>
-			<object class="IBMutableOrderedSet" key="objectRecords">
-				<array key="orderedObjects">
-					<object class="IBObjectRecord">
-						<string key="id">0</string>
-						<reference key="object" ref="0"/>
-						<reference key="children" ref="404559094"/>
-						<nil key="parent"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">-1</string>
-						<reference key="object" ref="290830259"/>
-						<reference key="parent" ref="0"/>
-						<string key="objectName">File's Owner</string>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">-2</string>
-						<reference key="object" ref="564548523"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">3</string>
-						<reference key="object" ref="919828898"/>
-						<reference key="parent" ref="0"/>
-						<string key="objectName">HFRplus App Delegate</string>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">112</string>
-						<reference key="object" ref="864837422"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">189</string>
-						<reference key="object" ref="441545816"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">2</string>
-						<reference key="object" ref="315381493"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">197</string>
-						<reference key="object" ref="704914877"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="536737539"/>
-						</array>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">198</string>
-						<reference key="object" ref="536737539"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="1029264842"/>
-							<reference ref="799874679"/>
-							<reference ref="82418722"/>
-						</array>
-						<reference key="parent" ref="704914877"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">199</string>
-						<reference key="object" ref="1029264842"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="506037333"/>
-							<reference ref="8340717"/>
-							<reference ref="940416538"/>
-							<reference ref="739303367"/>
-						</array>
-						<reference key="parent" ref="536737539"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">10</string>
-						<reference key="object" ref="884997277"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="634012160"/>
-							<reference ref="802807111"/>
-							<reference ref="779858833"/>
-							<reference ref="173634852"/>
-							<reference ref="914284568"/>
-							<reference ref="1033098280"/>
-						</array>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">11</string>
-						<reference key="object" ref="634012160"/>
-						<reference key="parent" ref="884997277"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">36</string>
-						<reference key="object" ref="802807111"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="394527492"/>
-							<reference ref="509715621"/>
-							<reference ref="121983951"/>
-						</array>
-						<reference key="parent" ref="884997277"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">37</string>
-						<reference key="object" ref="394527492"/>
-						<reference key="parent" ref="802807111"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">40</string>
-						<reference key="object" ref="509715621"/>
-						<reference key="parent" ref="802807111"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">38</string>
-						<reference key="object" ref="121983951"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="252353047"/>
-						</array>
-						<reference key="parent" ref="802807111"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">39</string>
-						<reference key="object" ref="252353047"/>
-						<reference key="parent" ref="121983951"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">48</string>
-						<reference key="object" ref="779858833"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="858215281"/>
-							<reference ref="1021092129"/>
-							<reference ref="899390690"/>
-						</array>
-						<reference key="parent" ref="884997277"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">49</string>
-						<reference key="object" ref="858215281"/>
-						<reference key="parent" ref="779858833"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">52</string>
-						<reference key="object" ref="1021092129"/>
-						<reference key="parent" ref="779858833"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">50</string>
-						<reference key="object" ref="899390690"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="71637260"/>
-						</array>
-						<reference key="parent" ref="779858833"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">51</string>
-						<reference key="object" ref="71637260"/>
-						<reference key="parent" ref="899390690"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">42</string>
-						<reference key="object" ref="173634852"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="538914403"/>
-							<reference ref="220094209"/>
-							<reference ref="503295244"/>
-						</array>
-						<reference key="parent" ref="884997277"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">43</string>
-						<reference key="object" ref="538914403"/>
-						<reference key="parent" ref="173634852"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">46</string>
-						<reference key="object" ref="220094209"/>
-						<reference key="parent" ref="173634852"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">44</string>
-						<reference key="object" ref="503295244"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="1908120"/>
-						</array>
-						<reference key="parent" ref="173634852"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">45</string>
-						<reference key="object" ref="1908120"/>
-						<reference key="parent" ref="503295244"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">132</string>
-						<reference key="object" ref="914284568"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="667235710"/>
-							<reference ref="314550696"/>
-							<reference ref="804712233"/>
-						</array>
-						<reference key="parent" ref="884997277"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">133</string>
-						<reference key="object" ref="667235710"/>
-						<reference key="parent" ref="914284568"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">136</string>
-						<reference key="object" ref="314550696"/>
-						<reference key="parent" ref="914284568"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">134</string>
-						<reference key="object" ref="804712233"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="373350720"/>
-						</array>
-						<reference key="parent" ref="914284568"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">135</string>
-						<reference key="object" ref="373350720"/>
-						<reference key="parent" ref="804712233"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">191</string>
-						<reference key="object" ref="1033098280"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="488182550"/>
-							<reference ref="645252979"/>
-							<reference ref="332707175"/>
-						</array>
-						<reference key="parent" ref="884997277"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">194</string>
-						<reference key="object" ref="488182550"/>
-						<reference key="parent" ref="1033098280"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">192</string>
-						<reference key="object" ref="645252979"/>
-						<reference key="parent" ref="1033098280"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">193</string>
-						<reference key="object" ref="332707175"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="983584473"/>
-						</array>
-						<reference key="parent" ref="1033098280"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">195</string>
-						<reference key="object" ref="983584473"/>
-						<reference key="parent" ref="332707175"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">kwc-mU-X61</string>
-						<reference key="object" ref="506037333"/>
-						<reference key="parent" ref="1029264842"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">p5L-Qt-3ih</string>
-						<reference key="object" ref="739303367"/>
-						<reference key="parent" ref="1029264842"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">tZr-iM-bR7</string>
-						<reference key="object" ref="940416538"/>
-						<reference key="parent" ref="1029264842"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">nyi-mM-wNS</string>
-						<reference key="object" ref="8340717"/>
-						<reference key="parent" ref="1029264842"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">uDA-lA-mSs</string>
-						<reference key="object" ref="82418722"/>
-						<array class="NSMutableArray" key="children"/>
-						<reference key="parent" ref="536737539"/>
-					</object>
-					<object class="IBObjectRecord">
-						<string key="id">NwP-O0-hhE</string>
-						<reference key="object" ref="799874679"/>
-						<reference key="parent" ref="536737539"/>
-					</object>
-				</array>
-			</object>
-			<dictionary class="NSMutableDictionary" key="flattenedProperties">
-				<string key="-1.CustomClassName">UIApplication</string>
-				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="-1.showNotes"/>
-				<string key="-2.CustomClassName">UIResponder</string>
-				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="-2.showNotes"/>
-				<string key="10.CustomClassName">TabBarController</string>
-				<string key="10.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="10.showNotes"/>
-				<string key="11.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="11.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="11.showNotes"/>
-				<string key="112.CustomClassName">TabBarController</string>
-				<string key="112.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="112.showNotes"/>
-				<string key="132.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="132.showNotes"/>
-				<string key="133.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="133.showNotes"/>
-				<string key="134.CustomClassName">HFRSearchViewController</string>
-				<string key="134.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="134.showNotes"/>
-				<string key="135.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="135.showNotes"/>
-				<string key="136.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="136.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="136.showNotes"/>
-				<string key="189.CustomClassName">SettingsViewController</string>
-				<string key="189.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="189.showNotes"/>
-				<string key="191.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="191.showNotes"/>
-				<string key="192.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="192.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="192.showNotes"/>
-				<string key="193.CustomClassName">InfosViewController</string>
-				<string key="193.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="193.showNotes"/>
-				<string key="194.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="194.showNotes"/>
-				<string key="195.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="195.showNotes"/>
-				<string key="197.CustomClassName">MenuViewController</string>
-				<string key="197.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="197.showNotes"/>
-				<string key="198.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="198.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="198.showNotes"/>
-				<string key="199.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="199.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="199.showNotes"/>
-				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="2.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="2.showNotes"/>
-				<string key="3.CustomClassName">HFRplusAppDelegate</string>
-				<string key="3.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="3.showNotes"/>
-				<string key="36.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="36.showNotes"/>
-				<string key="37.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="37.showNotes"/>
-				<string key="38.CustomClassName">ForumsTableViewController</string>
-				<string key="38.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="38.showNotes"/>
-				<string key="39.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="39.showNotes"/>
-				<string key="40.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="40.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="40.showNotes"/>
-				<string key="42.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="42.showNotes"/>
-				<string key="43.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="43.showNotes"/>
-				<string key="44.CustomClassName">HFRMPViewController</string>
-				<string key="44.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="44.showNotes"/>
-				<string key="45.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="45.showNotes"/>
-				<string key="46.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="46.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="46.showNotes"/>
-				<string key="48.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="48.showNotes"/>
-				<string key="49.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="49.showNotes"/>
-				<string key="50.CustomClassName">FavoritesTableViewController</string>
-				<string key="50.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="50.showNotes"/>
-				<string key="51.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<boolean value="NO" key="51.showNotes"/>
-				<string key="52.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<reference key="52.IBUserGuides" ref="0"/>
-				<boolean value="NO" key="52.showNotes"/>
-				<string key="NwP-O0-hhE.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="kwc-mU-X61.CustomClassName">MenuButton</string>
-				<string key="kwc-mU-X61.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="1" key="kwc-mU-X61.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
-				<string key="nyi-mM-wNS.CustomClassName">MenuButton</string>
-				<string key="nyi-mM-wNS.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="2" key="nyi-mM-wNS.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
-				<string key="p5L-Qt-3ih.CustomClassName">MenuButton</string>
-				<string key="p5L-Qt-3ih.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="2" key="p5L-Qt-3ih.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
-				<string key="tZr-iM-bR7.CustomClassName">MenuButton</string>
-				<string key="tZr-iM-bR7.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="2" key="tZr-iM-bR7.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
-				<string key="uDA-lA-mSs.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			</dictionary>
-			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
-			<nil key="activeLocalization"/>
-			<dictionary class="NSMutableDictionary" key="localizations"/>
-			<nil key="sourceID"/>
-		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">DetailNavigationViewController</string>
-					<string key="superclassName">UINavigationController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/DetailNavigationViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">FavoritesTableViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="favoritesTableView">UITableView</string>
-						<string key="loadingView">UIView</string>
-						<string key="maintenanceView">UILabel</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="favoritesTableView">
-							<string key="name">favoritesTableView</string>
-							<string key="candidateClassName">UITableView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="loadingView">
-							<string key="name">loadingView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="maintenanceView">
-							<string key="name">maintenanceView</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/FavoritesTableViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">ForumsTableViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="forumsTableView">UITableView</string>
-						<string key="loadingView">UIView</string>
-						<string key="maintenanceView">UILabel</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="forumsTableView">
-							<string key="name">forumsTableView</string>
-							<string key="candidateClassName">UITableView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="loadingView">
-							<string key="name">loadingView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="maintenanceView">
-							<string key="name">maintenanceView</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ForumsTableViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">HFRMPViewController</string>
-					<string key="superclassName">TopicsTableViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/HFRMPViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">HFRSearchViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="loadingView">UIView</string>
-						<string key="maintenanceView">UILabel</string>
-						<string key="theSearchBar">UISearchBar</string>
-						<string key="theTableView">UITableView</string>
-						<string key="tmpCell">TopicSearchCellView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="loadingView">
-							<string key="name">loadingView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="maintenanceView">
-							<string key="name">maintenanceView</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="theSearchBar">
-							<string key="name">theSearchBar</string>
-							<string key="candidateClassName">UISearchBar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="theTableView">
-							<string key="name">theTableView</string>
-							<string key="candidateClassName">UITableView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="tmpCell">
-							<string key="name">tmpCell</string>
-							<string key="candidateClassName">TopicSearchCellView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/HFRSearchViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">HFRplusAppDelegate</string>
-					<string key="superclassName">NSObject</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="detailNavigationController">DetailNavigationViewController</string>
-						<string key="favoritesNavController">UINavigationController</string>
-						<string key="forumsNavController">UINavigationController</string>
-						<string key="messagesNavController">UINavigationController</string>
-						<string key="rootController">MenuViewController</string>
-						<string key="searchNavController">UINavigationController</string>
-						<string key="splitViewController">SplitViewController</string>
-						<string key="window">UIWindow</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="detailNavigationController">
-							<string key="name">detailNavigationController</string>
-							<string key="candidateClassName">DetailNavigationViewController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="favoritesNavController">
-							<string key="name">favoritesNavController</string>
-							<string key="candidateClassName">UINavigationController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="forumsNavController">
-							<string key="name">forumsNavController</string>
-							<string key="candidateClassName">UINavigationController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="messagesNavController">
-							<string key="name">messagesNavController</string>
-							<string key="candidateClassName">UINavigationController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="rootController">
-							<string key="name">rootController</string>
-							<string key="candidateClassName">MenuViewController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="searchNavController">
-							<string key="name">searchNavController</string>
-							<string key="candidateClassName">UINavigationController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="splitViewController">
-							<string key="name">splitViewController</string>
-							<string key="candidateClassName">SplitViewController</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="window">
-							<string key="name">window</string>
-							<string key="candidateClassName">UIWindow</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/HFRplusAppDelegate.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">IASKAppSettingsViewController</string>
-					<string key="superclassName">UITableViewController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">dismiss:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">dismiss:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">dismiss:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">delegate</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">delegate</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">delegate</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/IASKAppSettingsViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">InfosViewController</string>
-					<string key="superclassName">UITableViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/InfosViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MenuButton</string>
-					<string key="superclassName">UIButton</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/MenuButton.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">MenuViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">switchBtn:forEvent:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">switchBtn:forEvent:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">switchBtn:forEvent:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="btnCategories">MenuButton</string>
-						<string key="btnFavoris">MenuButton</string>
-						<string key="btnSearch">MenuButton</string>
-						<string key="btnTabs">MenuButton</string>
-						<string key="menuView">UIView</string>
-						<string key="popoverView">UIView</string>
-						<string key="scrollView">UIScrollView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="btnCategories">
-							<string key="name">btnCategories</string>
-							<string key="candidateClassName">MenuButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="btnFavoris">
-							<string key="name">btnFavoris</string>
-							<string key="candidateClassName">MenuButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="btnSearch">
-							<string key="name">btnSearch</string>
-							<string key="candidateClassName">MenuButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="btnTabs">
-							<string key="name">btnTabs</string>
-							<string key="candidateClassName">MenuButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="menuView">
-							<string key="name">menuView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="popoverView">
-							<string key="name">popoverView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="scrollView">
-							<string key="name">scrollView</string>
-							<string key="candidateClassName">UIScrollView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/MenuViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">PageViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/PageViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">SettingsViewController</string>
-					<string key="superclassName">IASKAppSettingsViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/SettingsViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">SplitViewController</string>
-					<string key="superclassName">UISplitViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/SplitViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">TabBarController</string>
-					<string key="superclassName">UITabBarController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/TabBarController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">TopicCellView</string>
-					<string key="superclassName">UITableViewCell</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="msgLabel">UILabel</string>
-						<string key="timeLabel">UILabel</string>
-						<string key="titleLabel">UILabel</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="msgLabel">
-							<string key="name">msgLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="timeLabel">
-							<string key="name">timeLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="titleLabel">
-							<string key="name">titleLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/TopicCellView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">TopicSearchCellView</string>
-					<string key="superclassName">UITableViewCell</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="msgLabel">UILabel</string>
-						<string key="timeLabel">UILabel</string>
-						<string key="titleLabel">UILabel</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="msgLabel">
-							<string key="name">msgLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="timeLabel">
-							<string key="name">timeLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="titleLabel">
-							<string key="name">titleLabel</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/TopicSearchCellView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">TopicsTableViewController</string>
-					<string key="superclassName">PageViewController</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="loadingView">UIView</string>
-						<string key="maintenanceView">UILabel</string>
-						<string key="tmpCell">TopicCellView</string>
-						<string key="topicsTableView">UITableView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="loadingView">
-							<string key="name">loadingView</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="maintenanceView">
-							<string key="name">maintenanceView</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="tmpCell">
-							<string key="name">tmpCell</string>
-							<string key="candidateClassName">TopicCellView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="topicsTableView">
-							<string key="name">topicsTableView</string>
-							<string key="candidateClassName">UITableView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/TopicsTableViewController.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
-		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
-			<real value="1552" key="NS.object.0"/>
-		</object>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>
-			<integer value="4600" key="NS.object.0"/>
-		</object>
-		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="06-magnify.png">{24, 24}</string>
-			<string key="18-envelope.png">{24, 16}</string>
-			<string key="28-star.png">{26, 26}</string>
-			<string key="44-shoebox.png">{24, 22}</string>
-			<string key="black_dot.png">{1, 1}</string>
-			<string key="categories.png">{32, 32}</string>
-			<string key="categories_on.png">{32, 32}</string>
-			<string key="favoris.png">{32, 32}</string>
-			<string key="favoris_on.png">{32, 32}</string>
-			<string key="search.png">{32, 32}</string>
-			<string key="search_on.png">{32, 32}</string>
-			<string key="tabs.png">{32, 32}</string>
-			<string key="tabs_on.png">{32, 32}</string>
-			<string key="white_dot.png">{1, 1}</string>
-		</dictionary>
-		<string key="IBCocoaTouchPluginVersion">2083</string>
-	</data>
-</archive>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
+            <connections>
+                <outlet property="delegate" destination="3" id="4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <customObject id="3" userLabel="HFRplus App Delegate" customClass="HFRplusAppDelegate">
+            <connections>
+                <outlet property="favoritesNavController" destination="48" id="53"/>
+                <outlet property="forumsNavController" destination="36" id="41"/>
+                <outlet property="messagesNavController" destination="42" id="47"/>
+                <outlet property="rootController" destination="197" id="200"/>
+                <outlet property="searchNavController" destination="132" id="196"/>
+                <outlet property="window" destination="2" id="5"/>
+            </connections>
+        </customObject>
+        <customObject id="112" customClass="TabBarController"/>
+        <customObject id="189" customClass="SettingsViewController"/>
+        <window opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+        </window>
+        <viewController id="197" customClass="MenuViewController">
+            <view key="view" contentMode="scaleToFill" id="198">
+                <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="uDA-lA-mSs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="417"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <connections>
+                            <outlet property="delegate" destination="197" id="a8S-1b-k72"/>
+                        </connections>
+                    </scrollView>
+                    <view hidden="YES" contentMode="scaleToFill" id="NwP-O0-hhE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="374"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.76457002740000002" green="0.42717837590000002" blue="0.2615761861" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view contentMode="scaleToFill" id="199">
+                        <rect key="frame" x="0.0" y="374" width="320" height="43"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="kwc-mU-X61" customClass="MenuButton">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="43"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="categories.png" backgroundImage="black_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="categories_on.png" backgroundImage="black_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="categories_on.png" backgroundImage="black_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchBtn:forEvent:" destination="197" eventType="touchUpInside" id="mff-Mr-DTS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="p5L-Qt-3ih" customClass="MenuButton">
+                                <rect key="frame" x="80" y="0.0" width="80" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="favoris.png" backgroundImage="black_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="favoris_on.png" backgroundImage="white_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="favoris_on.png" backgroundImage="white_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchBtn:forEvent:" destination="197" eventType="touchUpInside" id="zRa-V2-lHM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="tZr-iM-bR7" customClass="MenuButton">
+                                <rect key="frame" x="160" y="0.0" width="80" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="search.png" backgroundImage="black_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="search_on.png" backgroundImage="white_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="search_on.png" backgroundImage="white_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchBtn:forEvent:" destination="197" eventType="touchUpInside" id="El4-qE-wLT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="nyi-mM-wNS" customClass="MenuButton">
+                                <rect key="frame" x="240" y="0.0" width="80" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="tabs.png" backgroundImage="black_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="tabs_on.png" backgroundImage="white_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="tabs_on.png" backgroundImage="white_dot.png">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchBtn:forEvent:" destination="197" eventType="touchUpInside" id="uiw-wc-r3R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </subviews>
+            </view>
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnCategories" destination="kwc-mU-X61" id="zzy-8z-Lb6"/>
+                <outlet property="btnFavoris" destination="p5L-Qt-3ih" id="vGU-Pv-HJz"/>
+                <outlet property="btnSearch" destination="tZr-iM-bR7" id="QBT-JV-dSn"/>
+                <outlet property="btnTabs" destination="nyi-mM-wNS" id="rLz-9w-l3g"/>
+                <outlet property="menuView" destination="199" id="ujq-YV-pKq"/>
+                <outlet property="popoverView" destination="NwP-O0-hhE" id="JDW-LK-vWR"/>
+                <outlet property="scrollView" destination="uDA-lA-mSs" id="8f7-Y8-JC8"/>
+            </connections>
+        </viewController>
+        <tabBarController id="10" customClass="TabBarController">
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <nil key="simulatedDestinationMetrics"/>
+            <tabBar key="tabBar" contentMode="scaleToFill" id="11">
+                <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <navigationController id="36">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Catégories" image="44-shoebox.png" id="37"/>
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="40">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController id="38" customClass="ForumsTableViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <toolbarItems/>
+                            <navigationItem key="navigationItem" title="Item" id="39"/>
+                            <nil key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController id="48">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Vos Sujets" image="28-star.png" id="49"/>
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="52">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController id="50" customClass="FavoritesTableViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <toolbarItems/>
+                            <navigationItem key="navigationItem" title="Item" id="51"/>
+                            <nil key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController id="42">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Messages" image="18-envelope.png" id="43"/>
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="46">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController nibName="TopicsTableViewController" id="44" customClass="HFRMPViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <toolbarItems/>
+                            <navigationItem key="navigationItem" title="Item" id="45"/>
+                            <nil key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController id="132">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Recherche" image="06-magnify.png" id="133"/>
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="136">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController id="134" customClass="HFRSearchViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <toolbarItems/>
+                            <navigationItem key="navigationItem" title="Item" id="135"/>
+                            <nil key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+                <navigationController id="191">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="194"/>
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <nil key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="192">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <viewControllers>
+                        <viewController id="193" customClass="InfosViewController">
+                            <extendedEdge key="edgesForExtendedLayout"/>
+                            <toolbarItems/>
+                            <navigationItem key="navigationItem" title="Item" id="195"/>
+                            <nil key="simulatedStatusBarMetrics"/>
+                            <nil key="simulatedTopBarMetrics"/>
+                            <nil key="simulatedBottomBarMetrics"/>
+                            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                            <nil key="simulatedDestinationMetrics"/>
+                        </viewController>
+                    </viewControllers>
+                </navigationController>
+            </viewControllers>
+            <connections>
+                <outlet property="delegate" destination="112" id="113"/>
+            </connections>
+        </tabBarController>
+    </objects>
+    <resources>
+        <image name="06-magnify.png" width="24" height="24"/>
+        <image name="18-envelope.png" width="24" height="16"/>
+        <image name="28-star.png" width="26" height="26"/>
+        <image name="44-shoebox.png" width="24" height="22"/>
+        <image name="black_dot.png" width="1" height="1"/>
+        <image name="categories.png" width="32" height="32"/>
+        <image name="categories_on.png" width="32" height="32"/>
+        <image name="favoris.png" width="32" height="32"/>
+        <image name="favoris_on.png" width="32" height="32"/>
+        <image name="search.png" width="32" height="32"/>
+        <image name="search_on.png" width="32" height="32"/>
+        <image name="tabs.png" width="32" height="32"/>
+        <image name="tabs_on.png" width="32" height="32"/>
+        <image name="white_dot.png" width="1" height="1"/>
+    </resources>
+</document>

@@ -32,6 +32,8 @@
     
     NSLog(@"VDL");
     //[UIColor colorWithRed:242/255.f green:144/255.f blue:27/255.f alpha:1.0f]
+    
+    /*
     NSDictionary *navbarTitleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                                [UIFont boldSystemFontOfSize:15.0], UITextAttributeFont,
                                                [UIColor colorWithRed:170/255.f green:170/255.f blue:170/255.f alpha:1.0f],UITextAttributeTextColor,
@@ -70,7 +72,7 @@
       nil]
                                                 forState:UIControlStateNormal];
         
-    
+    */
     
     //[self.menuView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"pw_maze_black"]]];
     self.menuView.layer.masksToBounds = NO;
